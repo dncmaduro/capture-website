@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Viewport Capture",
+  "version": "1.0.0",
+  "description": "Capture an entire webpage as sequential viewport screenshots and download them as a ZIP.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "minimum_chrome_version": "109",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "downloads",
+    "offscreen",
+    "scripting",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}

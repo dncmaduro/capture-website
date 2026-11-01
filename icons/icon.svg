@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="24" fill="#EEF1F2"/>
+
+  <!-- Rear viewport: its offset shows a sequence of captured frames. -->
+  <rect x="30" y="12" width="76" height="48" rx="8" fill="#26343A"/>
+  <rect x="37" y="20" width="62" height="32" rx="3" fill="#EEF1F2"/>
+
+  <!-- Front viewport: the larger, offset frame is the current capture. -->
+  <rect x="22" y="48" width="84" height="68" rx="9" fill="#26343A"/>
+  <rect x="30" y="57" width="68" height="50" rx="3" fill="#EEF1F2"/>
+
+  <!-- Simple browser chrome, deliberately bold enough for 16px. -->
+  <rect x="30" y="57" width="68" height="9" rx="3" fill="#26343A"/>
+  <circle cx="36" cy="61.5" r="1.5" fill="#EEF1F2"/>
+  <circle cx="42" cy="61.5" r="1.5" fill="#EEF1F2"/>
+</svg>
